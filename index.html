@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доступ на платформу</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- подключение Bootstrap и стилей для данной страницы -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+
+    <!-- поключение глобальных стилей -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body>
+    <main class="form-signin w-100 m-auto">
+        <form>
+
+          <div class="login_form-logo">
+            <!-- ссылка на главную страницу -->
+            <a class="login_form-logo_link" href="#">
+              <img class="mb-4 text-center logo_image" src="img/logo.png" alt="Логотип РЖД">
+            </a>
+          </div>
+
+          <h1 class="h3 mb-3 fw-normal text-center">Доступ на платформу</h1>
+      
+          <div class="form-floating">
+            <input type="tel" class="form-control login_form-phone" placeholder="Введите телефон" required>
+            <label for="floatingInput">Телефон</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="password" class="form-control login_form-password" placeholder="Введите пароль" required>
+            <label for="floatingPassword">Пароль</label>
+          </div>
+      
+          <button class="w-100 btn btn-lg btn-danger" type="submit">Вход</button>
+          <p class="mt-5 mb-3 text-muted text-center"> Для восстановления пароля и доступа перейдите по <a class="text-danger" href="reset.html">ссылке</a></p>
+
+        </form>
+      </main>  
+</body>
+</html>

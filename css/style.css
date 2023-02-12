@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Rrail;
+    src: url(../fonts/RussianRail-G-Pro.ttf);
+}
+body, button, input, textarea {
+	font-family: Rrail, Arial, Verdana, sans-serif;
+}
+
+.logo_image {
+    max-width: 97px;
+    height: auto;
+}
+
+a:hover, a:focus {
+    text-decoration: none !important;
+}
+
+.article_item {
+    transition: .7s;
+    margin: 7px;
+    overflow: hidden;
+}
+
+.article_item:hover, .article_item:focus {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.article_item img {
+    transition: .7s;
+}
+
+.article_item:hover img, .article_item:focus img {
+    transform: scale(1.1, 1.1);
+}
+
+.header_logo-link {
+    margin-right: 20px;
+    transition: .7s;
+}
+
+.header_logo-link:hover, .header_logo-link:focus {
+    opacity: .7;
+}
+
+.opacity_link {
+    transition: .7s;
+}
+
+.opacity_link:hover, .opacity_link:focus {
+    opacity: .5;
+}
