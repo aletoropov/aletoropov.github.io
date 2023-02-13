@@ -6,6 +6,11 @@ body, button, input, textarea {
 	font-family: Rrail, Arial, Verdana, sans-serif;
 }
 
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .logo_image {
     max-width: 97px;
     height: auto;
