@@ -6,6 +6,10 @@ body, button, input, textarea {
 	font-family: Rrail, Arial, Verdana, sans-serif;
 }
 
+.main-container {
+    min-height: 73vh;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
