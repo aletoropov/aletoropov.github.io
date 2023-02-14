@@ -52,25 +52,25 @@
         </div>
       </div>
     </div>
-  </header>
-  
+  </header>  
+  <!-- конец блока с меню в щшапке сайта -->
 
-      <main>
-        
+      <main>        
         <!-- раздел с новостями и последними событиями -->
         <section class="text-center container">
           <div class="row py-lg-3">
             <div class="col-lg-6 col-md-8 mx-auto">
-                <!-- название видео -->
+                <!-- название страницы -->
               <h1 class="fw-light">Профиль</h1>
             </div>
           </div>
         </section>
       
         <div class="container-fluid bg-light main-container">
+          
             <div class="row wrapper">
                 <div class="col-md-12 mx-auto mt-3 mb-3">
-                    <!-- навигация "хдебные крошки" -->
+                    <!-- навигация "хлебные крошки" -->
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="#">Главная страница</a></li>
@@ -79,9 +79,11 @@
                     </nav> 
                 </div>
             </div>
+
             <div class="row wrapper">
                 <div class="col-lg-6 col-md-8 mx-auto mt-3 mb-3">
                     <h4 class="text-center">Данные пользователя</h4>
+                    <!-- таблица с данными пользователя -->
                     <table class="table">
                         <tbody>
                           <tr>
@@ -103,20 +105,21 @@
                         </tbody>
                       </table>
                 </div>
+
                 <div class="col-lg-4 col-md-8 mx-auto mt-3 mb-3">
                     <h4 class="text-center">Для изменения пароля введите</h4>
                     <form>
                         <div class="mb-5">
-                          <label for="exampleInputEmail1" class="form-label">Действующий пароль</label>
-                          <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <label for="currentPassword" class="form-label">Действующий пароль</label>
+                          <input type="password" class="form-control" id="currentPassword" aria-describedby="Действующий пароль">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Новый пароль</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <label for="newPassword1" class="form-label">Новый пароль</label>
+                          <input type="password" class="form-control" id="newPassword1">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Повторите новый пароль</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="newPassword2" class="form-label">Повторите новый пароль</label>
+                            <input type="password" class="form-control" id="newPassword2">
                             <div id="emailHelp" class="form-text">Запомните или сохраните новый пароль. Он понадобится Вам для доступа на платформу</div>
                         </div>
                         <button type="submit" class="btn btn-secondary">Изменить</button>
