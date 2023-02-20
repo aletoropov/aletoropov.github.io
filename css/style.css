@@ -10,6 +10,16 @@ body, button, input, textarea {
     min-height: 73vh;
 }
 
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_section {
+    display: flex;
+    align-items: center;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
