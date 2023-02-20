@@ -79,12 +79,53 @@
                 </div>
             </div>
             <div class="row wrapper">
-                <div class="col-lg-6 col-md-8 mx-auto mt-3 mb-3">
-
+              <div class="col-md-6">
+                <div class="card card-white post mb-2 p-2">
+                    <div class="post-heading">
+                        <div class="float-left meta">
+                            <div class="title h5">
+                                <b>Иван Иванов</b> отправил сообщение.
+                            </div>
+                            <h6 class="text-muted time">12.12.2023</h6>
+                        </div>
+                    </div> 
+                    <div class="post-description"> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quis ullam.</p>    
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-8 mx-auto mt-3 mb-3">
-
+                <div class="card card-white post mb-2 p-2">
+                  <div class="post-heading">
+                      <div class="float-left meta">
+                          <div class="title h5">
+                              <b>Администратор</b> отправил сообщение.
+                          </div>
+                          <h6 class="text-muted time">13.12.2023</h6>
+                      </div>
+                  </div> 
+                  <div class="post-description"> 
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis enim laudantium consequatur delectus!</p>    
+                  </div>
+              </div>
+            </div>
+                <div class="col-md-4">
+                    <h4>Связь с администратором</h4>
+                    <form action="sendmeessage" method="post">
+                <div class="form-group mt-2">
+                    <label for="headermsg">Тема сообщения:</label>
+                    <input type="text" name="headermsg" class="form-control" id="headermsg" placeholder="Тема сообщения..." required>
                 </div>
+                <div class="form-group mt-2">
+                    <label for="message">Сообщение:</label>
+                    <textarea class="form-control" name="message" rows="3" placeholder="Текст сообщения администратору..." required></textarea>
+                </div>
+                <div class="form-group mt-2 mb-2">
+                    <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+                </div>                
+                    </form>
+                </div>
+                
+
+
             </div>    
         </div>
       
