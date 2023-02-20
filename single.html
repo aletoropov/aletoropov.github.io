@@ -24,7 +24,7 @@
 
         <!-- основные разделы -->
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Сапсан</a></li>
+          <li><a href="#" class="nav-link px-2 link-secondary">Сапсан</a></li> <!-- активный раздел в данный момент -->
           <li><a href="#" class="nav-link px-2 link-dark">Ласточка</a></li>
           <li><a href="#" class="nav-link px-2 link-dark">Нестандартные ситуации</a></li>
         </ul>
@@ -53,7 +53,7 @@
       </div>
     </div>
   </header>
-  
+  <!-- конец меню в шапке сайта -->
 
       <main>
         
@@ -70,11 +70,11 @@
         <div class="container-fluid bg-light main-container">
             <div class="row wrapper">
                 <div class="col-md-12 mx-auto mt-3 mb-3">
-                    <!-- навигация "хдебные крошки" -->
+                    <!-- навигация "хлебные крошки" -->
                     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="#">Главная страница</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">Ласточка</li>
+                          <li class="breadcrumb-item active" aria-current="page">Ласточка</li> <!-- активная страница -->
                         </ol>
                     </nav> 
                 </div>
@@ -87,12 +87,16 @@
             </div>    
             <div class="row wrapper">
                 <div class="col-lg-6 col-md-8 mx-auto">
+                    <!-- возможность проголосовать за видео -->
                     <div id="lkd" style="margin:10px;">Если данный материал Вам понятен, нажмите <img src="img/glike.png" class="likeb" onclick="window.location='./?content=51&amp;like'"><br></div>
                 </div>
                 <div class="col-lg-6 col-md-8 mx-auto">
+                    <!-- вывод ссылок на похожие материалы -->
                     <div style="text-align:right; margin: 10px;">Сопутствующие материалы: <br><a href="#">Вызов вспомогательного локомотива</a><br><a href="#">Буксировочный адаптер</a></div>
                 </div>
                 <div class="col-lg-12 mb-3">
+
+                    <!-- форма добавления комментария под видео -->
                     <form>
                         <div class="mb-3">
                           <label for="commentIn" class="form-label">Комментарий:</label>
@@ -100,7 +104,9 @@
                           <div id="commentHelp" class="form-text"></div>
                         </div>
                         <button type="submit" class="btn btn-primary">Отправить</button>
-                      </form>
+                    </form>
+                    <!--конец формы -->
+
                 </div>
             </div>
         </div>
@@ -112,6 +118,7 @@
         <div class="container footer_main">
           <p class="footer_section">&copy; ver. 1.0.0</p>
           <p class="footer_section">
+            <!-- ссылка на группу в telegram -->
             <a class="opacity_link" href="#" target="_blank">
               <img src="img/telegram.png" alt="Группа Telegram">
             </a>
@@ -121,5 +128,6 @@
 
 <!-- подключение JS bootstrap -->
 <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

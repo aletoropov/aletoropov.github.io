@@ -1,3 +1,6 @@
+/* Основные стили сайта */
+
+/* Подключение шрифта */
 @font-face {
     font-family: Rrail;
     src: url(../fonts/RussianRail-G-Pro.ttf);
