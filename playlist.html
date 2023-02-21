@@ -64,6 +64,8 @@
               <!-- заголовок -->
               <h1 class="fw-light">Новости</h1>
 
+              <!-- закоментиолвал обычный вывод новостей, если вывод с помощью слайда не нравится можно его удалить, а этот вывод расскомментиоовать
+
               <p class="lead text-muted">
                 <small class="text-muted">Опубликован новый видеоролик:</small><br>
                 <small class="text-muted"><a href="#">Управление носовым обтекателем и автосцепкой. Сапсан.</a></small>
@@ -74,7 +76,52 @@
                 <small class="text-muted"><a href="#">Нагрев подшипника колёсно-редукторного блока. Сапсан.</a></small>
               </p>
 
+              конец коментария -->
             </div>
+
+            <!-- вывод новостей с помощь слайда -->
+            <div class="row">
+              <div class="col-lg-12">
+              <div id="carouselNews" class="carousel slide">
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <p class="lead text-muted">
+                      <small class="text-muted">Опубликован новый видеоролик:</small><br>
+                      <small class="text-muted"><a href="#">Управление носовым обтекателем и автосцепкой. Сапсан.</a></small>
+                    </p>
+                  </div>
+
+                  <div class="carousel-item">
+                    <p class="lead text-muted">
+                      <small class="text-muted">Опубликован новый видеоролик:</small><br>
+                      <small class="text-muted"><a href="#">Нагрев подшипника колёсно-редукторного блока. Сапсан.</a></small>
+                    </p>
+                  </div>
+
+                  <div class="carousel-item">
+                    <p class="lead text-muted">
+                      <small class="text-muted">Уважаемые коллеги, получать уведомления о публикации новых видеороликов вы сможете в:</small><br>
+                      <small class="text-muted"><a href="#">Telegram-канале</a></small>
+                    </p>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предедущее</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующее</span>
+                </button>
+              </div>
+               
+              </div>
+            </div>
+            <!-- конец вывода новостей с помощью слайда -->
+
+
           </div>
         </section>
         <!-- конец раздела с новостями и событиями -->
