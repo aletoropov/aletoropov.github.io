@@ -1,6 +1,11 @@
 /* Основные стили сайта */
 *, ::before, ::after {
     z-index: 0;
+    opacity: 1.0 !important;
+}
+
+.dropdown {
+    z-index: 1 !important;
 }
 
 /* Подключение шрифта */
