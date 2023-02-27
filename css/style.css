@@ -93,3 +93,13 @@ a:hover, a:focus {
 .opacity_link:hover, .opacity_link:focus {
     opacity: .5;
 }
+
+@media all and (max-width: 1400px) {
+    .card_desc {
+        flex-direction: column-reverse;
+                
+    }
+    .card_desc .text-muted {
+        margin-bottom: 20px;
+    }
+}
