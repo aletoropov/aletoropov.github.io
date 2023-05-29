@@ -1,4 +1,5 @@
-# Верстка для сайта видеоплатформы
+<h1 align="center">Верстка</h1>
+<h3 align="center">Для портала видео-уроков</h3>
 
 [Страница "Входа"](https://aletoropov.github.io/most.github.io/)  
 
