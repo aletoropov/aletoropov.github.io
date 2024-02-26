@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Главная страница</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="container-fluid header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><h2>Brand</h2></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="#vstrecha">ВСТРЕЧА</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="#uhod">УХОД</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="#arenda">АРЕНДА</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-2" href="#dop">ДОПОЛНИТЕЛЬНО</a>
+                            </li>
+                            <li class="nav-item">
+                                 <a class="nav-link" href="#vopros">ВОПРОСЫ</a>
+                            </li>
+                        </ul>
+                        </div>
+                </div>
+            </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main class="container">
+
+        <div id="vstrecha" class="row justify-content-center">
+            <div class="col-xs-12 m-4">
+                <h3 class="textshadow">Услуга Встреча</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-3">
+                <img class="img-fluid rounded" src="assets/img/image.jpg" alt="Услуга Уход">
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <p>Подходит для тех, кто не собирается сдавать квартиру в аренду, однако собирается проводить время в квартире лично, либо предоставлять возможность проживания родственникам и друзьям. Услуга носит разовый характер и позволяет содержать квартиру в чистоте в сезон, в период, когда в ней никто не живет. Обслуживание квартиры осуществляется после выезда гостей и/или перед их приездом. Вы будете уверены, что после выезда гостей Ваша квартира в порядке, а вновь прибывающим гостям будет приятно заехать в свежеубранную квартиру.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 m-4">
+                <div class="vstrecha hide mt-2 mb-2">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th rowspan="2" class="text-center">Вид услуги и её состав</th>
+                            <th colspan="6" class="text-center">Стоимость</th>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Студия<br>(1 окно)</td>
+                            <td class="text-center">1-к. кв-ра<br>(2 окна)</td>
+                            <td class="text-center">2-к. кв-ра<br>(3 окна)</td>
+                            <td class="text-center">3-к. кв-ра<br>(4 окна)</td>
+                            <td class="text-center">4-к. кв-ра<br>(5 окон)</td>
+                            <td class="text-center">Дом</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center"><b>Встреча</b> (квартира не сдаётся в аренду)</td>
+                            <td colspan="6" class="text-center"><b>Стоимость</b></td>
+                        </tr>
+                        <tr>
+                            <td>Разовая генеральная уборка квартиры после выезда хозяев или приглашенных ими гостей (не включает мойку окон)</td>
+                            <td class="align-middle text-center">2500</td>
+                            <td class="align-middle text-center">3000</td>
+                            <td class="align-middle text-center">3500</td>
+                            <td class="align-middle text-center">4000</td>
+                            <td class="align-middle text-center">5000</td>
+                            <td class="align-middle text-center" rowspan="3">Договорная</td>
+                        </tr>
+                        <tr>
+                            <td>Разовая генеральная уборка квартиры перед приездом хозяев или приглашенных ими гостей (включает мойку окон)</td>
+                            <td class="align-middle text-center">5000</td>
+                            <td class="align-middle text-center">7500</td>
+                            <td class="align-middle text-center">10000</td>
+                            <td class="align-middle text-center">12500</td>
+                            <td class="align-middle text-center">15000</td>
+                        </tr>
+                        <tr>
+                            <td>Мойка окон</td>
+                            <td class="align-middle text-center">3000</td>
+                            <td class="align-middle text-center">5000</td>
+                            <td class="align-middle text-center">7000</td>
+                            <td class="align-middle text-center">9000</td>
+                            <td class="align-middle text-center">11000</td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xs-12">
+                    <a class="btn btn-info" id="vstrecha-btn-show" href="#" onclick="vstrechaShow(); return false;">Подробно</a>
+                    <a class="btn btn-info hide" id="vstrecha-btn-hide" href="#" onclick="vstrechaHide(); return false;">Свернуть</a>
+                </div>
+                <div class="col-xs-12 m-2">
+                    <input type="checkbox" class="mr-2 ml-4"  name="uslvstrecha" id="uslvstrecha" onchange="uslVsrecha();">
+                    <label for="uslvstrecha"><b>Купить услугу</b></label>
+                </div>
+            </div>
+
+        <!-- услуга уход -->
+        <div id="uhod" class="row justify-content-center">
+            <div class="col-xs-12 m-4">
+                <h3 class="textshadow">Услуга Уход</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <p>Услуга будет интересна для тех, кто постоянно проживает в квартире в сезон, однако в несезон квартира пустует и находится без присмотра. Услуга Уход предполагает контроль целостности квартиры, обслуживание в межсезонье, а также проведение разовой генеральной уборки перед приездом собственника в начале сезона. Вы будете уверены, что Ваша квартира под постоянным присмотром и в технически исправном состоянии, а гостям, приезжающим к началу сезона, будет приятно заехать в свежеубранную квартиру.</p>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <img class="img-fluid" src="assets/img/uhod.jpg" alt="Услуга Уход">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 m-4">
+                <div class="uhod hide m4-2 mb-4 pb-4 pt-4">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td rowspan="2" class="text-center"><b>Вид услуги и её состав</b></td>
+                            <td colspan="6" class="text-center"><b>Стоимость</b></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Студия<br>(1 окно)</td>
+                            <td class="text-center">1-к. кв-ра<br>(2 окна)</td>
+                            <td class="text-center">2-к. кв-ра<br>(3 окна)</td>
+                            <td class="text-center">3-к. кв-ра<br>(4 окна)</td>
+                            <td class="text-center">4-к. кв-ра<br>(5 окон)</td>
+                            <td class="text-center">Дом</td>                           
+                        </tr>
+                        <tr>
+                            <td class="text-center"><b>Уход</b> (квартира не сдаётся в аренду)</td>
+                            <td colspan="6" class="text-center"><b>Стоимость в год</b></td>                           
+                        </tr>
+                        <tr>
+                            <td>Проветривание квартиры</td>
+                            <td class="align-middle text-center" rowspan="9">7500</td>
+                            <td class="align-middle text-center" rowspan="9">10000</td>
+                            <td class="align-middle text-center" rowspan="9">15000</td>
+                            <td class="align-middle text-center" rowspan="9">20000</td>
+                            <td class="align-middle text-center" rowspan="9">25000</td>
+                            <td class="align-middle text-center" rowspan="9">Договорная</td>
+                        </tr>
+                        <tr>
+                            <td>Включение/выключение отопление в межсезонье на минимальный уровень</td>
+                        </tr>
+                        <tr>
+                            <td>Контроль целостности квартиры в межсезонье</td>
+                        </tr>
+                        <tr>
+                            <td>Контроль работоспособности оборудования и приборов</td>
+                        </tr>
+                        <tr>
+                            <td>Проведение косметической уборки в межсезонье</td>
+                        </tr>
+                        <tr>
+                            <td>Проведение генеральной уборки (включая мытьё окон) перед приездом владельца</td>
+                        </tr>
+                        <tr>
+                            <td>Устранение аварий (при наличии возможности самостоятельно устранить аварию)</td>
+                        </tr>
+                        <tr>
+                            <td>Разрешение вопросов, связанных с авариями (соседи, аварийные службы и т.д.)</td>
+                        </tr>
+                        <tr>
+                            <td>Допуск в квартиру технических/аварийных специалистов (с разрешения собственника)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <a class="btn btn-info"  href="#" id="uhod-btn-show" onclick="uhodShow(); return false;">Подробно</a>
+                <a class="btn btn-info hide"  href="#" id="uhod-btn-hide" onclick="uhodHide(); return false;">Свернуть</a>
+            </div>
+            <div class="col-xs-12 m-2">
+                <input type="checkbox" class="mr-2 ml-4"  name="usluhod" id="usluhod" onchange="uslUhod();">
+                <label for="usluhod"><b>Купить услугу</b></label>
+            </div>
+        </div>
+        <!-- .уход -->
+        
+        <!-- услуга аренда -->
+        <div id="arenda" class="row justify-content-center">
+            <div class="col-xs-12 m-4">
+                <h3 class="textshadow">Услуга Аренда</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-3">
+                <img class="img-fluid" src="assets/img/arenda.jpg" alt="Услуга Аренда">
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <p>Услуга будет интересна для тех, кто собирается периодически приезжать на отдых, а в период отсутствия хозяев, сдавать квартиру в аренду и получать дополнительный доход. Мы позаботимся о встрече арендаторов, составлении документов и получении депозита. Проконтролируем добросовестность арендаторов и целостность Вашей квартиры, проводим гостей и сделаем после них уборку, иными словами, сделаем всё, чтобы гости были довольны, а Вы – спокойны.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 m-4">
+                <div class="arenda hide">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td rowspan="2" class="text-center"><b>Вид услуги и её состав</b></td>
+                            <td colspan="6" class="text-center"><b>Стоимость</b></td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Студия<br>(1 окно)</td>
+                            <td class="text-center">1-к. кв-ра<br>(2 окна)</td>
+                            <td class="text-center">2-к. кв-ра<br>(3 окна)</td>
+                            <td class="text-center">3-к. кв-ра<br>(4 окна)</td>
+                            <td class="text-center">4-к. кв-ра<br>(5 окон)</td>
+                            <td class="text-center">Дом</td>                            
+                        </tr>
+                        <tr>
+                            <td class="text-center"><b>Аренда</b> (квартира сдается в краткосрочную аренду)</td>
+                            <td colspan="6" class="text-center"><b>Разовая стоимость</b></td>                            
+                        </tr>
+                        <tr>
+                            <td>1. Подготовительные:</td>
+                            <td class="align-middle text-center" rowspan="5">3000</td>
+                            <td class="align-middle text-center" rowspan="5">4000</td>
+                            <td class="align-middle text-center" rowspan="5">4500</td>
+                            <td class="align-middle text-center" rowspan="5">5000</td>
+                            <td class="align-middle text-center" rowspan="5">5500</td>
+                            <td class="align-middle text-center" rowspan="5">Договорная</td>
+                        </tr>
+                        <tr>
+                            <td>Подготовка квартиры к рекламной фото и видеосъемке</td>
+                        </tr>
+                        <tr>
+                            <td>Рекламная фото и видеосъемка квартиры</td>
+                        </tr>
+                        <tr>
+                            <td>Подготовка описания объекта</td>
+                        </tr>
+                        <tr>
+                            <td>Размещение объявления в рекламных источниках</td>
+                        </tr>
+                        <tr>
+                            <td>2. Систематические:</td>
+                            <td class="align-middle text-center" rowspan="13" colspan="6">20% от стоимости аренды</td>
+                        </tr>
+                        <tr>
+                            <td>Встреча гостей, заключение договора, подписание акта передачи объекта, передача ключей, предоставление дополнительного оборудования</td>
+                        </tr>
+                        <tr>
+                            <td>Косметическая уборка квартиры в процессе проживания гостей</td>
+                        </tr>
+                        <tr>
+                            <td>Генеральная уборка квартиры после выезда гостей</td>
+                        </tr>
+                        <tr>
+                            <td>Стирка и глажка постельного белья</td>
+                        </tr>
+                        <tr>
+                            <td>Дооснащение объекта по просьбе гостей (посуда, бельё, детская кроватка и т.д. – возможна дополнительная смета)</td>
+                        </tr>
+                        <tr>
+                            <td>Контроль целостности объекта и оборудования после возврата объекта гостем</td>
+                        </tr>
+                        <tr>
+                            <td>Возврат ключей гостем, подписание акта возврата помещения и дополнительного оборудования</td>
+                        </tr>
+                        <tr>
+                            <td>Мелкий косметический ремонт (возможна дополнительная смета);</td>
+                        </tr>
+                        <tr>
+                            <td>3. Прочие:</td>
+                        </tr>
+                        <tr>
+                            <td>Устранение аварий возникших по вине гостей (при наличии технической возможности)</td>
+                        </tr>
+                        <tr>
+                            <td>Разрешение вопросов, связанных с авариями (соседи, аварийные службы и т.д.)</td>
+                        </tr>
+                        <tr>
+                            <td>Допуск в квартиру технических/аварийных специалистов (с разрешения собственника)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xs-12">
+                <a class="btn btn-info" id="arenda-btn-show" href="#" onclick="arendaShow(); return false;">Подробно</a>
+                <a class="btn btn-info hide" id="arenda-btn-hide" href="#" onclick="arendaHide(); return false;">Свернуть</a>
+            </div>
+            <div class="col-xs-12 m-2">
+                <input type="checkbox" class="mr-2 ml-4"  name="uslarenda" id="uslarenda" onchange="uslArenda();">
+                <label for="uslarenda"><b>Купить услугу</b></label>
+            </div>
+        </div>
+        <!-- .аренда -->
+
+        <!-- дополнительно -->
+        <div id="dop" class="row justify-content-center">
+            <div class="col-xs-12 m-4 ">
+                <h3 class="textshadow">Дополнительно</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Дополнительные услуги</th>
+                        <th>Разовая стоимость</th>
+                    </tr>
+                    <tr>
+                        <td>Ремонтные работы</td>
+                        <td rowspan="2">Договорная</td>
+                    </tr>
+                    <tr>
+                        <td>Закупка и расстановка мебели, оформление квартиры</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <img class="img-fluid" src="assets/img/image.jpg" alt="Дополнительные услуги">
+            </div>
+        </div>
+        <!-- .дополнитлеьно-->
+
+        <div id="vopros" class="row justify-content-center">
+            <div class="col-xs-12 m-4">
+                <h3 class="textshadow">Ответы на вопросы</h3>
+            </div>
+        </div>
+        <div class="row pb-2">
+            <div class="col-xs-12 col-md-3">
+                <img class="img-fluid" src="assets/img/voproa.jpg" alt="Ответы на вопросы">
+            </div>
+            <div class="col-xs-12 col-md-9">
+                    <h5 class="text-info">1.	Как формируется цена аренды квартиры и от чего она зависит</h5>
+                    <p>Есть два возможных варианта формирования стоимости аренды:</p>
+                    <p>1.	Вы сами говорите нам, сколько стоит аренда Вашей квартиры;</p>
+                    <p>2.	Мы устанавливаем стоимость аренды Вашей квартиры исходя из рыночной стоимости аналогичных объектов.</p>
+                    <p>В чем отличие первого и второго вариантов?</p>
+                    <p>В первом случае мы не влияем на стоимость аренды, следовательно, мы не можем гарантировать качественное заполнение (наличие арендаторов) квартиры.</p>
+                    <p>Во втором случае, мы сами устанавливаем стоимость аренды исходя из статистики среднерыночных цен с поправкой на дополнительные факторы (престижность района/жилого комплекса/дома, наличие и удаленность инфраструктуры, площадь квартиры, качество ремонта, оснащенность квартиры, удаленность от моря и т.д.). То есть мы можем гарантировать, что цена соответствует рынку и заполняемость будет высокой.</p>
+                    <p>В любом случае, стоимость аренды подлежит согласованию с Вами.</p>
+                    <p>Также мы присваиваем весовые коэффициенты факторам, влияющим на стоимость аренды. Таким образом мы устанавливаем цену аренды максимально приближенной к рыночной и добиваемся максимального заполнения квартиры.</p>
+
+                    <h5 class="text-info">2.	Какова система расчётов</h5>
+                    <p>При заселении гости оплачивают стоимость проживания, а также гарантийный депозит, который, в случае полной сохранности квартиры, подлежит возврату.</p>
+                    <p>После выезда гостей и контроля целостности квартиры, процесс считается завершенным, а денежные средства, полученные от процесса, полежат распределению между собственником и управленцем. Перечисление денежных средств собственнику осуществляется раз в месяц, не позднее пятого числа месяца, следующего за расчётным.</p>
+                    
+                    <h5 class="text-info">3.	Каковы правовые основания для взаимодействия</h5>
+                    <p>Собственник квартиры нанимает управленца для оказания услуг, перечень которых определен в пункте 1. Все услуги, связанные с коммуникации с гостями и иными третьими лицами (реклама квартиры, сдачей её в аренду, получения оплаты за аренду и т.д.) управленец осуществляет от имени и за счет собственника, действуя в качестве посредника (комиссионера). Все услуги, связанные с отношениями между собственником и управленцем (уборка, стирка и т.д.), управленец оказывает в качестве исполнителя.
+                    </p>
+                    <p>
+                    Если Вам интересно наше предложение, пожалуйста, заполните анкету Объекта и отправьте её по адресу ___. Если у Вас есть вопросы или замечания, Вы можете отправить их в электронном виде по адресу ___ или позвонить по телефону.
+                    </p>
+            </div>
+        </div>
+
+    </main>
+    <!-- end main -->
+
+    <!-- footer -->
+    <footer class="container-fluid footer bg-light">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xs-12">
+                        <small>&copy;&nbsp;copyright</small>
+                    </div>
+                    <div class="col-xs-12">
+                            <small>mail@mail.ru</small>&nbsp;<small>8-(900)-999-88-99</small>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- аренда купить -->
+    <div id="arendazak" class="container-fluid fixed-bottom hide" style="background-color: #fff;">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-xs-12 p-2">
+                    <!-- aренда modal button -->
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#arendaModal">
+                        Купить услугу
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- аренда modal -->
+    <div class="modal fade" id="arendaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="arendaModalLabel">Анкета</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="arenda.php" name="arenda" method="POST">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="arenda_fio">ФИО собственника:</label>
+                        <input type="text" class="form-control form-control-sm" name="arenda_fio" id="arenda_fio">
+                    </div> 
+                    <div class="form-group col-md-6">
+                        <label for="arenda_fio1">ФИО контактного лица:</label>
+                        <input type="text" class="form-control form-control-sm" name="arenda_fio1" id="arenda_fio1">
+                    </div>   
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="arenda_phone">Контактный телефон:</label>
+                        <input type="text" class="form-control form-control-sm" name="arenda_phone" id="arenda_phone">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="arenda_phone1">Дополнительный телефон:</label>
+                        <input type="text" class="form-control form-control-sm" name="arenda_phone1" id="arenda_phone1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="arenda_email">Контактный email:</label>
+                        <input type="email" class="form-control form-control-sm" name="arenda_email" id="arenda_email">
+                    </div>
+                    <div class="from-group col-md-6">
+                        <label for="arenda_email1">Дополнительный email:</label>
+                        <input type="email" class="form-control form-control-sm" name="arenda_email1" id="arenda_email1">
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <b>Общая информация</b>
+                </div>
+
+                <div class="row m-2">
+                    <b>Домовая инфраструктура</b>
+                </div>
+
+                <div class="row justify-content-between m-2">
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="konserzh" id="konserzh" value="Консъерж">
+                        <label class="form-check-label" for="konserzh"><small>Консъерж</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="liftpass" id="liftpass" value="Лифт пассажирский">
+                        <label class="form-check-label" for="liftpass"><small>Лифт пассажирский</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="liftgruz" id="liftgruz" value="Лифт грузовой">
+                        <label class="form-check-label" for="liftgruz"><small>Лифт грузовой</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="zakrterritor" id="zakrterritor" value="Закрытая территория">
+                        <label class="form-check-label" for="zakrterritor"><small>Закрытая территория</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="parkovkanater" id="parkovkanater" value="Парковка на территории">
+                        <label class="form-check-label" for="parkovkanater"><small>Парковка на территории</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="bassnater" id="bassnater" value="Бассейн на территории">
+                        <label class="form-check-label" for="bassnater"><small>Бассейн на территории</small></label>
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <b>Оснащенность квартиры</b>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Общая инфраструктура</span>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="kondicioner">Кондиционеры (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="kondicioner" id="kondicioner">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="ventil">Вентиляция:</label>
+                        <select class="form-control form-control-sm" name="ventil" id="ventil">
+                            <option value="Нет">Нет</option>
+                            <option value="Есть">Есть</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Санузел</span>
+                </div>
+                <div class="row m-2 justify-content-between">
+                    <div class="form-check form-check-inline col-md-2">
+                        <input class="form-check-input" type="checkbox" name="sanuzel_vannaya" id="sanuzel_vannaya" value="Ванная">
+                        <label class="form-check-label" for="sanuzel_vannaya"><small>Ванная</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <input class="form-check-input" type="checkbox" name="sanuzel_dush" id="sanuzel_dush" value="Душ">
+                        <label class="form-check-label" for="sanuzel_dush"><small>Душ</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <input class="form-check-input" type="checkbox" name="sanuzel_bide" id="sanuzel_bide" value="Бидэ">
+                        <label class="form-check-label" for="sanuzel_bide"><small>Бидэ</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <input class="form-check-input" type="checkbox" name="sanuzel_dushgigien" id="sanuzel_dushgigien" value="Душ гигиенический">
+                        <label class="form-check-label" for="sanuzel_dushgigien"><small>Душ гигиенический</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-2">
+                        <input class="form-check-input" type="checkbox" name="sanuzel_polotsuhit" id="sanuzel_polotsuhit" value="Полотенцесушитель">
+                        <label class="form-check-label" for="sanuzel_polotsuhit"><small>Полотенцесушитель</small></label>
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Кухня</span>
+                </div>
+                <div class="row m-2 justify-content-between">
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_plitagaz" name="kuhnya_plitagaz" value="Плита газовая">
+                        <label class="form-check-label" for="kuhnya_plitagaz"><small>Плита газовая</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_plitaelek" name="kuhnya_plitaelek" value="Плита электрическая">
+                        <label class="form-check-label" for="kuhnya_plitaelek"><small>Плита электрическая</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_microvoln" name="kuhnya_microvoln" value="Микроволновка">
+                        <label class="form-check-label" for="kuhnya_microvoln"><small>Микроволновка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_duhovka" name="kuhnya_duhovka" value="Духовка">
+                        <label class="form-check-label" for="kuhnya_duhovka"><small>Духовка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_vityazh" name="kuhnya_vityazh" value="Вытяжка">
+                        <label class="form-check-label" for="kuhnya_vityazh"><small>Вытяжка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" id="kuhnya_cooler" name="kuhnya_cooler" value="Куллер">
+                        <label class="form-check-label" for="kuhnya_cooler"><small>Куллер</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_waterfiltr" id="kuhnya_waterfiltr" value="Фильтр для воды">
+                        <label class="form-check-label" for="kuhnya_waterfiltr"><small>Фильтр для воды</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_izmelvrak" id="kuhnya_izmelvrak" value="Измельчитель под раковину">
+                        <label class="form-check-label" for="kuhnya_izmelvrak"><small>Измельчитель под раковину</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_kofevar" id="kuhnya_kofevar" value="Кофеварка">
+                        <label class="form-check-label" for="kuhnya_kofevar"><small>Кофеварка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_kofemol" id="kuhnya_kofemol" value="Кофемолка">
+                        <label class="form-check-label" for="kuhnya_kofemol"><small>Кофемолка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_sokovizh" id="kuhnya_sokovizh" value="Соковыжималка">
+                        <label class="form-check-label" for="kuhnya_sokovizh"><small>Соковыжималка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_grill" id="kuhnya_grill" value="Гриль">
+                        <label class="form-check-label" for="kuhnya_grill"><small>Гриль</small></label>
+                    </div> 
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_doskarzdel" id="kuhnya_doskarzdel" value="Доска разделочная">
+                        <label class="form-check-label" for="kuhnya_doskarzdel"><small>Доска разделочная</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kuhnya_prinadlkuhon" id="kuhnya_prinadlkuhon" value="Принадлежности кухонные  (половник, шумовка и т.д.)">
+                        <label class="form-check-label" for="kuhnya_prinadlkuhon"><small>Принадлежности кухонные  (половник, шумовка и т.д.)</small></label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="posudastolov">Посуда столовая (на сколько персон):</label>
+                        <input type="number" class="form-control form-control-sm" name="posudstolov" id="posudastolov">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="priborstolov">Приборы столовые  (на сколько персон):</label>
+                        <input type="number" class="form-control form-control-sm" name="priborstolov" id="priborstolov">  
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="nozhikuh">Ножи кухонные (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="nozhikuh" id="nozhikuh">
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Средства для стирки</span>
+                </div>
+                <div class="row m-2 justify-content-between">
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="stirmash" id="stirmash" value="Стиральная машина">
+                        <label class="form-check-label" for="stirmash"><small>Стиральная машина</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="sushmash" id="sushmash" value="Сушильная машина">
+                        <label class="form-check-label" for="sushmash"><small>Сушильная машина</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="sushilka" id="sushilka" value="Сушилка">
+                        <label class="form-check-label" for="sushilka"><small>Сушилка</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="gladildoska" id="gladildoska" value="Гладильная доска">
+                        <label class="form-check-label" for="gladildoska"><small>Гладильная доска</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="utug" id="utug" value="Утюг">
+                        <label class="form-check-label" for="utug">Утюг</label>
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Развлечения</span>
+                </div>
+                <div class="row m-2 justify-content-between">
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="televizor" id="televizor" value="Телевизор">
+                        <label class="form-check-label" for="televizor"><small>Телевизор</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="kabeltv" id="kebeltv" value="Кабельное телевидение">
+                        <label class="form-check-label" for="kabeltv"><small>Кабельное телевидение</small></label>
+                    </div>
+                    <div class="form-check form-check-inline col-md-3">
+                        <input class="form-check-input" type="checkbox" name="muzcentr" id="muzcentr" value="Музыкальный центр">
+                        <label class="form-check-label" for="muzcentr"><small>Музыкальный центр</small></label>
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Спальные места</span>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="krovatodnospal">Кровать односпальная (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="krovatodnospal" id="krovatodnospal">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="krovatdvuspal">Кровать двуспальная (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="krovatdvuspal" id="krovatdvuspal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="kreslokrovat">Кресло-кровать (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="kreslokrovat" id="kreslokrovat">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="divan">Диван (количество):</label>
+                        <input type="number" class="form-control form-control-sm" name="divan" id="divan">
+                    </div>
+                </div>
+
+                <div class="row m-2">
+                    <span class="text-info">Близлежащая инфраструктура (описание):</span>
+                </div>
+                <div class="row m-1">
+                    <textarea class="form-control form-control-sm" name="blizinfr" rows="2"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-success mt-2">Отправить</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <!-- встреча купить -->
+      <div id="vstrechazak" class="container-fluid fixed-bottom hide" style="background-color: #fff;">
+            <div class="container">
+                <div class="row p-2 justify-content-end">
+                    <div class="col-xs-12">
+                        <!-- встреча modal button -->
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#vstrechaModal">
+                            Купить услугу
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- вчтреча Modal -->
+        <div class="modal fade" id="vstrechaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="vstrechaModalLabel">Анкета</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <form action="uhod.php" method="POST">
+                            <fieldset>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="uhod_fio">ФИО собственника:</label>
+                                    <input type="text" class="form-control form-control-sm" name="uhod_fio" id="uhod_fio">
+                                </div> 
+                                <div class="form-group col-md-6">
+                                    <label for="uhod_fio1">ФИО контактного лица:</label>
+                                    <input type="text" class="form-control form-control-sm" name="uhod_fio1" id="uhod_fio1">
+                                </div>   
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="uhod_phone">Контактный телефон:</label>
+                                    <input type="text" class="form-control form-control-sm" name="uhod_phone" id="uhod_phone">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="uhod_phone1">Дополнительный телефон:</label>
+                                    <input type="text" class="form-control form-control-sm" name="uhod_phone1" id="uhod_phone1">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="uhod_email">Контактный email:</label>
+                                    <input type="email" class="form-control form-control-sm" name="uhod_email" id="uhod_email">
+                                </div>
+                                <div class="from-group col-md-6">
+                                    <label for="uhod_email1">Дополнительный email:</label>
+                                    <input type="email" class="form-control form-control-sm" name="uhod_email1" id="uhod_email1">
+                                </div>
+                            </div>
+                            </fieldset>
+                            <div class="row">
+                                <div class="form-group m-3">
+                                    Адрес:
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <input type="text" class="form-control form-control-sm" name="gorod" id="gorod" placeholder="Город">
+                                </div>
+                                <div class="form-group col-md-5">
+                                    <input type="text" class="form-control form-control-sm" name="ulica" id="ulica" placeholder="Улица">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control form-control-sm" name="address_dom" id="address_dom" placeholder="Дом">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control form-control-sm" name="address_korpus" id="address_korpus" placeholder="Корпус">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control form-control-sm" name="address_drob" id="address_drob" placeholder="Дробь">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control form-control-sm" name="address_litera" id="address_litera" placeholder="Литера">  
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input type="text" class="form-control form-control-sm" name="address_vk" id="address_vk" placeholder="Квартира">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="kolvomest">Количество спальных мест:</label>
+                                    <input type="number" class="form-control form-control-sm" name="kolvomest" id="kolvomest">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="kolvokomnat">Количество жилых комнат:</label>
+                                    <input type="number" class="form-control form-control-sm" name="kolvokomnat" id="kolvokomnat">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="kbalcon">Наличие застекленного балкона/лоджии:</label>
+                                    <select class="form-control form-control-sm" name="kbalcon" id="kbalcon">
+                                        <option value="Нет">Нет</option>
+                                        <option value="Есть">Есть</option>
+                                    </select> 
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="squard">Общая площадь квартиры:</label>
+                                    <input type="number" class="form-control form-control-sm" name="squard" id="squard">
+                                </div>    
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="etazh">Этаж:</label>
+                                    <input type="number" class="form-control form-control-sm" name="etazh" id="etazh">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="alletazh">Всего этажей в доме:</label>
+                                    <input type="number" class="form-control form-control-sm" name="alletazh" id="alletazh">
+                                </div>
+                            </div>
+                            <div class="row m-2 justify-content-between">
+                                <div class="form-group col-md-6">
+                                    <input type="checkbox" class="form-check-input" name="liftpass" id="liftpass" value="Лифт пассажирский">
+                                    <label class="form-check-label" for="liftpass"><small>Лифт пассажирский</small></label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="checkbox" class="form-check-input" name="liftgruz" id="liftgruz" value="Лифт грузовой">
+                                    <label class="form-check-label" for="liftgruz"><small>Лифт грузовой</small></label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success">Отправить</button>
+                        </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets//js/jquery.maskedinput.min.js"></script>
+    <script src="assets/js/input.js"></script>
+</body>
+</html>
