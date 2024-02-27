@@ -12,3 +12,6 @@
 [Страница "Профиля"](https://aletoropov.github.io/portfolio.github.io/doss/profile.html) 
 
 [Страница "Обратной связи с администратором (Сообщения)"](https://aletoropov.github.io/portfolio.github.io/doss/message.html) 
+
+## Лендинг услуги для агенства недвижимости
+[Главная станица](https://aletoropov.github.io/portfolio.github.io/onepage/)
